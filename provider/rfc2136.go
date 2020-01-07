@@ -125,6 +125,9 @@ OuterLoop:
 		case dns.TypeAAAA:
 			rrValues = []string{rr.(*dns.AAAA).AAAA.String()}
 			rrType = "AAAA"
+		case dns.TypeSRV:
+			rrValues = []string{rr.(*dns.SRV).String()}
+			rrType = "SRV"
 		case dns.TypeTXT:
 			rrValues = (rr.(*dns.TXT).Txt)
 			rrType = "TXT"
