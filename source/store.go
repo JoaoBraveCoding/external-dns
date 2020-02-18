@@ -206,11 +206,7 @@ func BuildWithConfig(source string, p ClientGenerator, cfg *Config) (Source, err
 		if err != nil {
 			return nil, err
 		}
-		crdClient, scheme, err := NewCRDClientForAPIVersionKind(client, cfg.KubeConfig, cfg.KubeMaster, cfg.CRDSourceAPIVersion, cfg.CRDSourceKind)
-		if err != nil {
-			return nil, err
-		}
-		return NewCRDSource(crdClient, cfg.Namespace, cfg.CRDSourceKind, scheme)
+		return NewCRDSource(client, cfg.KubeConfig, cfg.KubeMaster, cfg.CRDSourceAPIVersion, cfg.CRDSourceKind, cfg.Namespace)
 	}
 	return nil, ErrSourceNotFound
 }

@@ -740,6 +740,7 @@ gopkg.in/h2non/gock.v1 v1.0.15/go.mod h1:sX4zAkdYX1TRGJ2JY156cFspQn4yRWn6p9EMdOD
 gopkg.in/inf.v0 v0.9.1 h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=
 gopkg.in/inf.v0 v0.9.1/go.mod h1:cWUDdTG/fYaXco+Dcufb5Vnc6Gp2YChqWtbxRZE0mXw=
 gopkg.in/ini.v1 v1.42.0/go.mod h1:pNLf8WUiyNEtQjuu5G5vTm06TEv9tsIgeAvK8hOrP4k=
+gopkg.in/ini.v1 v1.44.0 h1:YRJzTUp0kSYWUVFF5XAbDFfyiqwsl0Vb9R8TVP5eRi0=
 gopkg.in/ini.v1 v1.44.0/go.mod h1:pNLf8WUiyNEtQjuu5G5vTm06TEv9tsIgeAvK8hOrP4k=
 gopkg.in/logfmt.v0 v0.3.0/go.mod h1:mRLMcMLrml5h2Ux/H+4zccFOlVCiRvOvndsolsJoU8Q=
 gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce/go.mod h1:yeKp02qBN3iKW1OzL3MGk2IdtZzaj7SFntXj72NppTA=
@@ -789,6 +790,7 @@ k8s.io/apiserver v0.0.0-20181213151703-3ccfe8365421/go.mod h1:6bqaTSOSJavUIXUtfa
 k8s.io/cli-runtime v0.0.0-20190817224438-0337ccdab819/go.mod h1:qWnH3/b8sp/l7EvlDh7ulDU3UWA4P4N1NFbEEP791tM=
 k8s.io/client-go v0.0.0-20190817222206-ee6c071a42cf h1:ZCiWjWPoxHYlMo7N4ZPz7yqo2YuCPvBi3nNX11oBTMg=
 k8s.io/client-go v0.0.0-20190817222206-ee6c071a42cf/go.mod h1:7vJpHMYJwNQCWgzmNV+VYUl1zCObLyodBc8nIyt8L5s=
+k8s.io/code-generator v0.0.0-20181117043124-c2090bec4d9b h1:KH0fUlgdFZH8UMxJ/FDCYHpczfSQKefetq5NjL6BVF0=
 k8s.io/code-generator v0.0.0-20181117043124-c2090bec4d9b/go.mod h1:MYiN+ZJZ9HkETbgVZdWw2AsuAi9PZ4V80cwfuf2axe8=
 k8s.io/gengo v0.0.0-20190116091435-f8a0810f38af/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
 k8s.io/helm v2.13.1+incompatible/go.mod h1:LZzlS4LQBHfciFOurYBFkCMTaZ0D1l+p0teMg7TSULI=
